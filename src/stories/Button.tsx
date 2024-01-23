@@ -17,10 +17,11 @@ interface ButtonProps {
   /**
    * Button contents
    */
-  label: string;
+  label?: string;
   /**
    * Optional click handler
    */
+  children?: React.ReactNode;
   onClick?: () => void;
 }
 

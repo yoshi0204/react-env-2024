@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Textinput from './Textinput';
+import Textinput from './TextInput';
 import { userEvent } from '@testing-library/user-event';
 
 test('TextInput Conponent Test', async () => {

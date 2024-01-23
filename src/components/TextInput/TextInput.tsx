@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Textinput = () => {
   const [text, setText] = useState('');
